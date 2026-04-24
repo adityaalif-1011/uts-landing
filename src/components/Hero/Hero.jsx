@@ -11,9 +11,7 @@ return(
 
 <div className="shape circle a"></div>
 <div className="shape circle b"></div>
-<div className="shape square a"></div>
 <div className="shape tri t1"></div>
-<div className="shape tri t2"></div>
 
 
 <motion.div
