@@ -1,0 +1,80 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:34px 10%;
+}
+
+.logo{
+font-size:34px;
+font-weight:900;
+letter-spacing:2px;
+}
+
+nav{
+display:flex;
+gap:60px;
+}
+
+nav a{
+text-decoration: none;
+position: relative;
+font-size:17px;
+font-weight:500;
+}
+
+nav a:after{
+content:'';
+position:absolute;
+left:0;
+bottom:-6px;
+width:0;
+height:2px;
+background:#111;
+transition:.3s;
+}
+
+nav a:hover:after{
+width:100%;
+}
+
+.nav-actions{
+display:flex;
+gap:18px;
+}
+
+.nav-actions button{
+padding:16px 34px;
+font-size:16px;
+border-radius:4px;
+}
+
+.ghost{
+background:transparent;
+border:1px solid #111;
+}
+
+.dark{
+background:#111;
+color:white;
+}
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+gap:30px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}
+
+nav a,
+nav a:visited{
+color:#111;
+text-decoration:none;
+}

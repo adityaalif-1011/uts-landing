@@ -1,0 +1,21 @@
+.cta{
+text-align:center;
+padding:100px 8%;
+}
+
+.cta h2{
+font-size:54px;
+margin-bottom:40px;
+}
+
+form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+input{
+padding:18px;
+}
